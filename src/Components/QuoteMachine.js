@@ -25,7 +25,9 @@ function RandomQuoteMachine() {
     };
 
     const handleTweetClick = () => {
-        alert(`${quote.text} - ${quote.author}`)
+        navigator.clipboard.writeText(`${quote.text} - ${quote.author}`);
+        alert("Successfully copied to clipboard")
+        // alert()
     };
 
     return (
@@ -36,7 +38,7 @@ function RandomQuoteMachine() {
                 <button id="new-quote" onClick={handleNewQuoteClick}>
                     New Quote
                 </button>
-                <button id="tweet-quote" onClick={handleTweetClick}>Share</button>
+                <button id="tweet-quote" onClick={handleTweetClick}>Copy</button>
             </div>
         </div>
     );
