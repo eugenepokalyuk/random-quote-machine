@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap?family=Roboto&display=swap');
 
 html {
   background-color: #1e1e1e;
@@ -38,7 +37,7 @@ html {
 }
 
 button#new-quote {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -56,12 +55,13 @@ button#new-quote {
   color: #1e1e1e;
   background-color: #ffd600;
 }
+
 button#new-quote:hover {
   background-color: #ffd60099;
 }
 
 button#tweet-quote {
-  background-color: #55ACEE; /* Blue */
+  background-color: #55ACEE;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -78,6 +78,7 @@ button#tweet-quote {
   color: #f5f5f5;
   background-color: #1a8ed2;
 }
+
 button#tweet-quote:hover {
   background-color: #1a8ed299;
 }
